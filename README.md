@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: 500. Stack trace -> typo in controller create 
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: Syntax err unexpected end of json. render json: added to update controller
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: 404. Rails console -> no delete route. added :destroy
